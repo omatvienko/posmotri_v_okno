@@ -54,24 +54,18 @@ video {
 }
 
 .content {
-  /*display: flex;
-  align-items: end;*/
-  display: grid;
-  grid-template-columns: 711px 399px;
-  column-gap: 30px;
-  /*inline-size: 1200px;*/
-  block-size: 534px;
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  inline-size: 1140px;
   margin: 0 auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .result {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 2px;
-  justify-content: flex-end;
+  
 }
+
 .result__video-container {
   position: relative;
 }
@@ -81,6 +75,7 @@ video {
   block-size: 386px;
   object-fit: cover;
   object-position: center;
+  margin-bottom: 16px;
 }
 
 .search-form {
@@ -113,9 +108,10 @@ video {
 .content__details {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 23px;
-  inline-size: 399px;
-  margin-bottom: 2px;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .content__video-card {
