@@ -91,7 +91,7 @@ video {
 
 .content__list {
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   block-size: 298px;
 }
 
