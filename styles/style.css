@@ -60,8 +60,16 @@ video {
   margin: 0 auto;
 }
 
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
 .result__video-container {
   position: relative;
+  block-size: 386px;
 }
 
 .result__video {
@@ -69,7 +77,6 @@ video {
   block-size: 386px;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 10px;
 }
 
 .search-form {
@@ -81,7 +88,8 @@ video {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 15px;
+  gap: 16px;
+  padding-bottom: 1px;
 }
 
 .search-form__fieldset-title {
@@ -107,7 +115,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 26px;
+  gap: 21px;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -144,6 +152,7 @@ video {
   line-height: 70.5px;
   color: #fff;
   font-family: Oswald, sans-serif;
+  margin-top: 5px;
 }
 
 .content__accent {
@@ -188,7 +197,7 @@ video {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  padding: 0 0 6px;
+  padding: 2px 0 5px;
 }
 
 .content__video-card-description {
