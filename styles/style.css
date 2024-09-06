@@ -108,7 +108,7 @@ video {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 30px;
+  margin: 0 2px 30px;
 }
 
 .content__details {
@@ -167,7 +167,6 @@ video {
 
 .content__card-link_current {
   background-color: #545050;
-  text-decoration: underline;
 }
 
 .content__card-link:focus {
@@ -218,6 +217,13 @@ video {
   border: none;
 }
 
+.search-form__fieldset-common {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+
 .search-form__pseudo-checkbox {
   position: relative;
   display: inline-block;
@@ -248,8 +254,9 @@ video {
 }
 
 .search-form__label {
-  display: inline-block;
-  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   cursor: pointer;
 }
 
