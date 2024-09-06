@@ -290,7 +290,11 @@ video {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
+.search-form__fieldset .search-form__label {
+  text-decoration: none;
+}
+
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
   text-underline-offset: 1px;
 }
